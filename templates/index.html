@@ -16,7 +16,7 @@
       <nav class="navbar navbar-default">
           <div class="container-fluid">
             <div class="navbar-header">
-              <a class="navbar-brand" href="#">Number Recogniser Thingy</a>
+              <a class="navbar-brand" href="#">Numer Recognition</a>
             </div>
               
     <ul class="nav navbar-nav navbar-right">
@@ -29,20 +29,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
-      
-      <!-- jQuery script adapted from https://github.com/data-representation/example-project -->
 
       <script>
           var prediction = { prediction }
       </script>
       
+      <!-- file upload from http://flask.pocoo.org/docs/0.12/patterns/fileuploads/  -->
       <h1>Upload new File</h1>
       <form method=post enctype=multipart/form-data>
         <p><input type=file name=file>
            <input type=submit value=Upload>
       </form>
 
-      {{ prediction }}
+      <p>{{ prediction }}</p>
     
   </body>
 </html>
