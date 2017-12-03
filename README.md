@@ -1,1 +1,1 @@
-# etProject2017
+# Emerging Technologies Project 2017
