@@ -9,6 +9,7 @@ import PIL.ImageOps
 
 from werkzeug.utils import secure_filename
 
+#file upload from http://flask.pocoo.org/docs/0.12/patterns/fileuploads/
 UPLOAD_FOLDER = 'imageUploads'
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg'])
 
@@ -41,6 +42,8 @@ def upload():
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             return redirect(url_for('uploaded_file', filename=filename))
 
+#adapted from https://www.tensorflow.org/get_started/mnist/pros
+#and http://www.itzikbs.com/tensorflow-deep-mnist-experts-tutorial
 @app.route('/imageUploads/<filename>')
 def uploaded_file(filename):
     im = Image.open(filename)
