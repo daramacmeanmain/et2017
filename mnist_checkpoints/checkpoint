@@ -1,0 +1,4 @@
+model_checkpoint_path: "C:/Users/Dara/Desktop/emergingTech/project/etProject2017/mnist_checkpoints/mnist-2900"
+all_model_checkpoint_paths: "C:/Users/Dara/Desktop/emergingTech/project/etProject2017/mnist_checkpoints/mnist-2700"
+all_model_checkpoint_paths: "C:/Users/Dara/Desktop/emergingTech/project/etProject2017/mnist_checkpoints/mnist-2800"
+all_model_checkpoint_paths: "C:/Users/Dara/Desktop/emergingTech/project/etProject2017/mnist_checkpoints/mnist-2900"
