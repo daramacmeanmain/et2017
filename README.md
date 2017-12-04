@@ -16,5 +16,7 @@ And finally, it can be accessed from a webrowser at http://127.0.0.1:5000/
 
 ## References
 http://flask.pocoo.org/docs/0.12/patterns/fileuploads/
+
 https://www.tensorflow.org/get_started/mnist/pros
+
 http://www.itzikbs.com/tensorflow-deep-mnist-experts-tutorial
